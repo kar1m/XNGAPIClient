@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
     sp.source_files = 'XNGAPIClient/*.{h,m}'
     sp.dependency   'AFNetworking'
     sp.dependency   'SSKeychain', '= 1.2.0'
-    sp.dependency   'AFOAuth1Client', :git => 'https://github.com/joelchen/AFOAuth1Client'
     sp.frameworks = 'Security','SystemConfiguration'
   end
 
